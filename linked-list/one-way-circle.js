@@ -1,5 +1,5 @@
 // 单向循环链表的特点：
-// 链表的尾节点不指向Null 指向链表的头节点
+// 链表的尾节点的后继指针不指向Null 指向链表的头节点
 
 const { OneWayLinkedList } = require("./one-way");
 
@@ -12,15 +12,15 @@ class OneWayCircleLinkedList extends OneWayLinkedList {
 }
 const link = new OneWayCircleLinkedList();
 
-link.add(1);
-link.add(2);
-link.add(3);
-link.add(4);
-link.add(5);
-link.add(6);
+// link.add(1);
+// link.add(2);
+// link.add(3);
+// link.add(4);
+// link.add(5);
+// link.add(6);
 
-let node = link.head;
-for (let i = 0; i < link.length; i++) {
-  console.log(i, node);
-  node = node?.next;
-}
+// let node = link.head;
+// for (let i = 0; i < link.length; i++) {
+//   console.log(i, node);
+//   node = node?.next;
+// }

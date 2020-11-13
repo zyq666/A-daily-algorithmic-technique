@@ -72,19 +72,19 @@ class OneWayLinkedList {
   }
 }
 
-const link = new OneWayLinkedList();
-link.add(1);
-link.add(2);
-link.add(3);
-link.add(4);
-link.add(5);
-link.insert(3, 8);
-link.add(6);
-link.remove(1);
-let node = link.head;
-for (let i = 0; i < link.length; i++) {
-  console.log(i, node);
-  node = node?.next;
-}
+// const link = new OneWayLinkedList();
+// link.add(1);
+// link.add(2);
+// link.add(3);
+// link.add(4);
+// link.add(5);
+// link.insert(3, 8);
+// link.add(6);
+// link.remove(1);
+// let node = link.head;
+// for (let i = 0; i < link.length; i++) {
+//   console.log(i, node);
+//   node = node?.next;
+// }
 
 module.exports = { Node, OneWayLinkedList };

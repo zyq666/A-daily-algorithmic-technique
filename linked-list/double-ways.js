@@ -1,11 +1,9 @@
+const { OneWayLinkedList, Node } = require("./one-way.js");
 // 双向链表的特点
 // 每个节点内除了存放数据和指向下一个节点地址的后继指针(next)，还会新增一个前驱指针(prev)指向上一个节点的地址
-
-const { OneWayLinkedList, Node } = require("./one-way");
-
 class DoubleNode extends Node {
-  constructor() {
-    super();
+  constructor(value) {
+    super(value);
     this.prev = null;
   }
 }
@@ -28,7 +26,7 @@ class DoubleWaysLinkedList extends OneWayLinkedList {
     const findNode = this.find(index - 1);
     const newNode = new DoubleNode(value);
     const nextNode = findNode.next;
-    newNode.next = newNode;
+    newNode.next = nextNode;
     newNode.prev = findNode;
     nextNode.prev = newNode;
     findNode.next = newNode;
@@ -45,17 +43,19 @@ class DoubleWaysLinkedList extends OneWayLinkedList {
   }
 }
 
-const link = new DoubleWaysLinkedList();
-link.add(1);
-link.add(2);
-link.add(3);
-link.add(4);
-link.add(5);
-link.insert(3, 8);
-link.add(6);
-link.remove(1);
-let node = link.head;
-for (let i = 0; i < link.length; i++) {
-  console.log(i, node);
-  node = node?.next;
-}
+// const link = new DoubleWaysLinkedList();
+// link.add(1);
+// link.add(2);
+// link.add(3);
+// link.add(4);
+// link.add(5);
+// link.insert(3, 8);
+// link.add(6);
+// link.remove(1);
+// let doubleWaysNode = link.head;
+// for (let i = 0; i < link.length; i++) {
+//   console.log(i, doubleWaysNode);
+//   doubleWaysNode = doubleWaysNode?.next;
+// }
+
+module.exports = { DoubleNode, DoubleWaysLinkedList };
