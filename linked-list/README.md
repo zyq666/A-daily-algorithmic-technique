@@ -40,7 +40,7 @@
 
 [反转链表(reverse-linked-list.js)](https://github.com/zyq666/A-daily-algorithmic-technique/blob/master/linked-list/reverse-linked-list.js)</br>
 **解题思路**：定义两个指针: pre, cur, 分别指向 null 和 head 结点，每次循环时将 cur 结点的后继指针指向 pre 结点以达到反转指针的目的，时间复杂度为 O(n)，图解如下：</br>
-本题及思路源自[leetcode#206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/solution/dong-hua-yan-shi-206-fan-zhuan-lian-biao-by-user74/)
+本题及思路源自[leetcode#206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/solution/dong-hua-yan-shi-206-fan-zhuan-lian-biao-by-user74/)</br>
 ![快慢指针](https://pic.leetcode-cn.com/7d8712af4fbb870537607b1dd95d66c248eb178db4319919c32d9304ee85b602-%E8%BF%AD%E4%BB%A3.gif)</br>
 
 [判断链表中是否有环(has-cycle.js)](https://github.com/zyq666/A-daily-algorithmic-technique/blob/master/linked-list/has-cycle.js)</br>
