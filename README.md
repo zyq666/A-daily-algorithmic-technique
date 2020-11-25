@@ -5,3 +5,5 @@
 [链表的实现及应用 (linked-list)](https://github.com/zyq666/A-daily-algorithmic-technique/tree/master/linked-list)
 
 [栈的实现及应用 (stack)](https://github.com/zyq666/A-daily-algorithmic-technique/tree/master/stack)
+
+[队列的实现及应用 (queue)](https://github.com/zyq666/A-daily-algorithmic-technique/tree/master/queue)

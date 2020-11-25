@@ -17,7 +17,7 @@
 [顺序栈(stack-by-array.js)](https://github.com/zyq666/A-daily-algorithmic-technique/blob/master/stack/stack-by-array.js)</br>
 使用数组实现栈数据结构，被称为顺序栈。
 
-[链表栈(stack-by-linked.js)](https://github.com/zyq666/A-daily-algorithmic-technique/blob/master/stack/stack-by-linked.js)</br>
+[链式栈(stack-by-linked.js)](https://github.com/zyq666/A-daily-algorithmic-technique/blob/master/stack/stack-by-linked.js)</br>
 使用链表实现栈数据结构，被称为链式栈。
 
 ---
