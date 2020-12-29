@@ -7,3 +7,7 @@
 [栈的实现及应用 (stack)](https://github.com/zyq666/A-daily-algorithmic-technique/tree/master/stack)
 
 [队列的实现及应用 (queue)](https://github.com/zyq666/A-daily-algorithmic-technique/tree/master/queue)
+
+[排序 (sort)](https://github.com/zyq666/A-daily-algorithmic-technique/tree/master/sort)
+
+[二分查找（half-seek)](https://github.com/zyq666/A-daily-algorithmic-technique/tree/master/half-seek)
